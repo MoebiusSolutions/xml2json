@@ -61,6 +61,10 @@ public class MyConvertClass {
 
 # Change History
 
+1.0.1-MOESOL-2
+
+* Fixed bug in XmlToJsonService.doExpandArrays() that didn't apply arrays to elements without nested content or elements
+
 1.0.1-MOESOL-1
 
 * Prefixed all attributes with "@" to prevent collisions with elements
