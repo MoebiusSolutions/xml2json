@@ -61,6 +61,10 @@ public class MyConvertClass {
 
 # Change History
 
+1.0.1-MOESOL-3
+
+* Updated XmlToJsonService.doExpandArrays() behavior to include a single-element array at the root. This results in a more consistent structure.
+
 1.0.1-MOESOL-2
 
 * Fixed bug in XmlToJsonService.doExpandArrays() that didn't apply arrays to elements without nested content or elements
